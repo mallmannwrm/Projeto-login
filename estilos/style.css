@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+PALETA DE CORES
+Verde: #49a09d
+Lilás: #5f2c82
+*/
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+    --preto: #000000;
+    --branco: #ffffff;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(var(--lilas) 30%, var(--verde) 70%);
+}
+section#login {
+    margin: auto;
+    width: 50vw;
+}
+img {
+    width: 200px;
+    display: block;
+}
+div#formulario {
+    background-color: var(--branco);
+    padding: 15px;
+    border-radius: 0px 20px 20px 0px;
+    display: block;
+    width: 500px;
+    height: 280px;
+}
+input {
+    display: block;
+    margin-top: 5px;
+}
