@@ -37,6 +37,8 @@ section#login {
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+
+    width: 60vw;
 }
 div#imagem {
     height: 300px;
