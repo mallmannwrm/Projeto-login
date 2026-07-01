@@ -49,7 +49,6 @@ div#formulario {
     background-color: var(--branco);
     padding: 15px;
     text-align: center;
-    vertical-align: middle;
     margin: auto;
     display: block;
 
@@ -88,7 +87,6 @@ input#Enviar {
 input#Enviar:hover {
     background-color: #987f25;
     color: white;
-
 }
 a {
     font-size: 0.8em;
